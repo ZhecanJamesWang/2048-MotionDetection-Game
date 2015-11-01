@@ -2,6 +2,9 @@
 Crazy 2048 Game
 Zhecan Wang & Chris Beck
 
+
+![alt tag](https://github.com/ZhecanJamesWang/2048-MotionDetection-Game/blob/master/ClassDiagram.png)
+
 To run the code you need to have these four files in the same folder:
 	game_2048.py
 	scores.txt
