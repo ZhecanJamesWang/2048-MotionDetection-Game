@@ -1,0 +1,39 @@
+///////////////////////////////////////////////////////////////////////////////////
+Crazy 2048 Game
+Zhecan Wang & Chris Beck
+
+To run the code you need to have these four files in the same folder:
+	game_2048.py
+	scores.txt
+	GUI.py
+	detection.py
+	yahoo.wav
+	cow.wav
+	getoffmycomputer.wav
+	horse.wav
+	
+To Start Playing:
+	1) Open terminal
+	2) Enter the folder with the files in it
+	3) Run the Main.py file:
+		>>> ... python detection.py
+
+Rules for Gameplay:
+	1) The principle of the game to combine adjacent tiles of the same number
+	2) Only tiles of the same number can be combined
+	3) The game ends when no more moves can be made
+
+Controls:
+ This game is controlled using the movements of the player's head. 
+ In order to move the tiles move your head in the same direction 
+ as the direction you would like the blocks to move. Move your head
+ out of the box on screen and then back in on the choosen side.
+
+ex//
+ head up    -> blocks up
+ head down  -> blocks down
+ head left  -> blocks left
+ head right -> blocks right
+
+
+

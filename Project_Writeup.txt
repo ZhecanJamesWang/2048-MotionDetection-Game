@@ -1,0 +1,15 @@
+Project Overview
+	Our project, "Crazy 2048 Game", is designed to detect players' head moving direction as command output to move the bricks in the 2048 game GUI. Different direction commands will also cause different sound effects. The GUI can also record and display the players' points.
+
+Results
+	(Please see the picture(2048_game_result.png) for reference)
+	 Our project can detect players' head moving direction as command output to move the bricks in the 2048 game GUI. The 2048 game alogorithm can analyze each command and give corresponding response. Different direction commands will also cause different sound effects. The GUI can also record and display the players' points.The colors of different blocks are also related to the values of the numbers on them. 
+
+Implementation
+	(Please see the picture(ClassDiagram.png) for UML)
+	Our project basically has three major components: the face detection part, the 2048 algorithm part, the gui part. The face detection uses opencv and builtin face detection algorithm to detect the face moving direction and give direction outputs to 2048 algorithm part. The 2048 algorithm store a 4 by 4 matrix and changes its entries according to the direction commands. The 2048 algorithm outputs the matrix everytime as an input to the GUI. Then the GUI displays it. 
+	One major decision: At the beginning, we try to write our own face detection code. We try to experiment a bunch of different algorithms like contour shape, contour areas, color filter, etc. However, we failed to succesfully detect the face but only regular shape objects. Finally, we decide to use the built in face detection algorithm because we find it is too complicated for us to generate our own successful face detection algorithm and face detection is actually one of the most powerful feature for opencv. We move our focus to more about the GUI and motion dection part.
+
+Reflection
+	We both have quite similar levels of coding skills and we both are quite responsible for handling our own parts. Our project is a little bit over ambitious but we basically achieve it to a reasonable extent. If we have more time or opportunity in the future, we wish to implement an online data collection methods and let many students in campus to play this game. We will collect their points data and visualize it. We mostly code individually but when we debug, we cooperate together.  
+
